@@ -12,3 +12,6 @@
 .contact {
     height: 100px;
 }
+.info{
+    flex-direction: column;
+}
