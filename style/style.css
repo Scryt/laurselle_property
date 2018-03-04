@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     width: 90%;
     display: flex;
@@ -14,4 +15,16 @@
 }
 .info{
     flex-direction: column;
+=======
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin-right: 0;
+}
+
+.logo{
+    height: 100px;
+>>>>>>> 073b8d248140360991a65780890fb11c69daa362
 }
