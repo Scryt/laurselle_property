@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .container {
     width: 90%;
     display: flex;
@@ -13,9 +13,9 @@
 .contact {
     height: 100px;
 }
-.info{
+.info {
     flex-direction: column;
-=======
+}
 .container{
     display: flex;
     justify-content: center;
@@ -26,5 +26,36 @@
 
 .logo{
     height: 100px;
->>>>>>> 073b8d248140360991a65780890fb11c69daa362
 }
+/**************************
+Navigation bar
+**************************/
+
+nav{
+    background-color: #ffffff;
+    margin: 0;
+    width: 100%;
+    font-size: 2rem;
+}
+ul{
+    list-style-type: none; /* 	Remove Bullets*/
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    align-items: baseline;
+    border-radius: 10px;
+    padding: 0;
+}
+
+nav li{
+    flex: 1;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+/**************************
+**************************/
