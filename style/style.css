@@ -1,36 +1,67 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6235d0d06a8f3f214ab06ec3b3680c29e16b78f3
 .container {
-    width: 90%;
+    max-width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
 .logo {
-    height: 100%;
-    width: auto;
+    height: auto;
+    max-width: 50%;
 }
-.contact {
-    height: 100px;
-<<<<<<< HEAD
-=======
-}
-.info{
-    flex-direction: column;
-=======
-.container{
-    display: flex;
+.logo2{
     justify-content: center;
     align-items: center;
-    max-width: 90%;
-    margin-right: 0;
+    display: flex;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+.contact div{
+    width: 500px;
+
+}
+.info {
+    font-size: small;
+    border: 1px solid dimgray;
+
+}
+nav{
+    background-color: dimgray;
+
+}
+nav ul{
+    width: 90%;
+    display: flex;
+
+    flex-flow: row;
+    list-style-type: none;
 }
 
-.logo{
-    height: 100px;
->>>>>>> 073b8d248140360991a65780890fb11c69daa362
->>>>>>> 6235d0d06a8f3f214ab06ec3b3680c29e16b78f3
+nav ul li{
+    text-align: center;
+    flex: 1;
+    justify-content: space-between; !important;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+
+
+}
+a:link,
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.serv {
+
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    text-align: center;
 }
