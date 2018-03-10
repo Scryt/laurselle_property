@@ -1,61 +1,67 @@
-
 .container {
-    width: 90%;
+    max-width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
 .logo {
-    height: 100%;
-    width: auto;
+    height: auto;
+    max-width: 50%;
 }
-.contact {
-    height: 100px;
-}
-.info {
-    flex-direction: column;
-}
-.container{
-    display: flex;
+.logo2{
     justify-content: center;
     align-items: center;
-    max-width: 90%;
-    margin-right: 0;
+    display: flex;
 }
-
-.logo{
-    height: 100px;
+.contact{
+    display: flex;
+    flex-direction: row;
 }
-/**************************
-Navigation bar
-**************************/
+.contact div{
+    width: 500px;
 
+}
+.info {
+    font-size: small;
+    border: 1px solid dimgray;
+
+}
 nav{
-    background-color: #ffffff;
-    margin: 0;
-    width: 100%;
-    font-size: 2rem;
-}
-ul{
-    list-style-type: none; /* 	Remove Bullets*/
-    padding: 0;
+    background-color: dimgray;
+
 }
 nav ul{
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+
     flex-flow: row;
-    align-items: baseline;
-    border-radius: 10px;
-    padding: 0;
+    list-style-type: none;
 }
 
-nav li{
-    flex: 1;
-    height: 30px;
-    padding: 20px;
+nav ul li{
     text-align: center;
-    font-size: 1em;
+    flex: 1;
+    justify-content: space-between; !important;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+
+
 }
-/**************************
-**************************/
+a:link,
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.serv {
+
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    text-align: center;
+}
