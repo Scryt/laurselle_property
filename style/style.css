@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     max-width: 90%;
     display: flex;
@@ -65,3 +66,87 @@ a:visited{
 h1 {
     text-align: center;
 }
+=======
+.container {
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+ }   
+.logo {
+    height: auto;
+    max-width: 50%;
+}
+.logo2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+.contact div{
+    width: 90%;
+    padding-top: 30px
+
+}
+.info {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.address {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.feedback{}
+nav{
+    background-color: white;
+
+}
+nav ul{
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li{
+    text-align: center;
+    flex: 1;
+    justify-content: space-between; !important;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+
+}
+
+nav img{
+    height: auto;
+    max-width: 10%;
+}
+a:link,
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.serv {
+
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    text-align: center;
+}
+>>>>>>> ae39804b637c1a29610d23bef7e16133f25a042d
