@@ -218,6 +218,7 @@ SERVICE
 .service {
     display: flex;
     flex-direction: column;
+    padding-top: 90px;
 }
 .icon {
     width: 300px;
