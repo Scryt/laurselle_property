@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Laurselle Property Lawyers</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<body>
+<nav class="container" data-spy="affix" data-offset-top="0">
+    <ul class="navbar">
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+
+            <a class="nav-link js-scroll-trigger" href="services.html">SERVICES</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="contact.html">CONTACT US</a>
+        </li>
+    </ul>
+</nav>
+<section class="banner">
+    <img class="bg-image" src="images/banner.png">
+    <div class="contact_inf_short">
+        <img class="logo" src="images/logo.png">
+        <div class="phone_det">
+            <img class="phone_icon" src="images/phone.png">
+            <div>
+                <p>CALL US</p>
+                <p><strong>01473 553061</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="container">
+        <div class="con_form">
+            <p>For your free no obligation quote please complete your details below:</p>
+            <form>
+                <label for="state">Are you buying or selling?</label>
+                <select id="state" name="state">
+                    <option value="empty"></option>
+                    <option value="sell">Selling</option>
+                    <option value="buy">Buying</option>
+                    <option value="sandb">Selling and buying</option>
+                </select>
+
+                <label for="checkbox">Is there a mortgage involved?</label>
+                <input id="checkbox" type="checkBox">
+
+                <label for="other">Other – please specify (i.e commercial lease.)</label>
+                <textarea id="other" name="other"></textarea>
+
+                <label for="mail">E-mail*</label>
+                <input type="email" id="mail" name="mail" pattern=".*@.*\..*" required>
+
+                <label for="name">Full names</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Telephone number:</label>
+                <input type="number" id="phone" name="phone" pattern="[0-9]*" required>
+
+                <input type="submit">
+            </form>
+
+        </div>
+    </section>
+    <section class="container, footer_color">
+        <div class="contact">
+            <div class="logo_grey">
+                <img class="logo" src="images/logo_grey.png" alt="logo">
+            </div>
+            <div class="info">
+                <p>info@laursellepropertylawyers.co.uk<br>phone: 01473 553061</p>
+                <p>© Laurselle Property Lawyers 2018</p>
+            </div>
+            <div class="address">
+                <p>37 Upper Orwell Street<br> Ipswich Suffolk<br> IP4 1HN</p>
+            </div>
+        </div>
+        <footer>
+            &copy; 2018 Created by: <a href="https://www.linkedin.com/in/scryt/">Scryt</a> and Hania Yarchuk. Graphics made by: Marcin Maciaszczuk
+        </footer>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>

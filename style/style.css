@@ -29,6 +29,7 @@ Navbar
     display: flex;
     justify-content: flex-end;
 }
+
 .nav-item{
     padding: 0 35px;
 }
@@ -62,7 +63,7 @@ Banner
 }
 
 .logo {
-    height: 130px;
+    height: 90px;
     width: auto;
 }
 .phone_det{
@@ -82,33 +83,6 @@ Banner
 .phone_icon{
     width: auto;
     height: 37px;
-}
-
-/*******
-Query
-*******/
-
-.con_form,
-form{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    width: 500px;
-    margin: 5px;
-}
-.con_form p{
-    padding: 10px;
-    margin: 5px;
-}
-
-input[type=text],
-select,
-textarea {
-    resize: vertical;
-    margin: 5px;
-}
-#other{
-    height: 150px;
 }
 
 /*******
@@ -154,7 +128,9 @@ margin-top: 15px;
     color: #aaa8a4;
 
 }
-
+footer{
+    float: right; font-size: 9px;   !important;
+}
 
 /**********************************************
 HOMEPAGE
@@ -246,3 +222,25 @@ SERVICE
 CONTACT
 **********************************************/
 
+.con_form,
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 500px;
+    margin: 5px;
+}
+.con_form p{
+    padding: 10px;
+    margin: 5px;
+}
+
+input[type=text],
+select,
+textarea {
+    resize: vertical;
+
+}
+#other{
+    height: 150px;
+}
