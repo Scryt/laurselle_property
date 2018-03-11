@@ -11,21 +11,16 @@ body{
 h1 {
     text-align: center;
 }
-.banner{
-    border-bottom: 3px solid #9C6DAD;
-    height: 350px;
-}
+
 .container {
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
-.logo {
-    height: auto;
-    max-width: 50%;
-}
+
+
 .logo_grey{
     justify-content: center;
     align-items: center;
@@ -36,23 +31,63 @@ h1 {
 Navbar
 *******/
 
-nav ul{
-    width: 90%;
-    display: flex;
-
-    flex-flow: row;
+.navbar{
+    width: 60%;
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
 }
-
-nav ul li{
-    text-align: center;
-    flex: 1;
-    justify-content: space-between; !important;
-    font-weight: bold;
+.nav-item{
+    padding: 0 35px;
 }
 nav a:link,
 nav a:visited{
     text-decoration: none;
+}
+/*******
+Banner
+*******/
+
+.banner{
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.bg-image{
+    border-bottom: 5px solid #9461A6;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+}
+.contact_inf_short{
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+.phone_det{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.phone_det div p{
+    margin: 0;
+    padding-left: 10px;
+    font-size: 0.9rem;
+    color: #9461A6;
+}
+
+.phone_icon{
+    width: auto;
+    height: 37px;
 }
 
 /*******
@@ -138,14 +173,31 @@ HOMEPAGE
 }
 
 .testimonials{
-    padding: 20px;
+
     margin: 0;
-    width: 100%;
-    height: 300px;
+    max-width: 100%;
     background-image: url("../images/testimonials_bg.png");
+    height: 300px;
     flex-direction: column;
 }
 
+.testimonials h2{
+    color: #9461A6;
+    width: 20%;
+    text-align: right;
+}
+
+.testimonials ul{
+    list-style-type: none;
+    max-width: 90%;
+    margin: auto;
+}
+.testimonials ul li {
+    padding: 0 35px;
+}
+.testimonials ul li label{
+    float: right;
+}
 .feedback{
     display: flex;
     flex-direction: row;
