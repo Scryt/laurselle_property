@@ -43,6 +43,7 @@ Navbar
 nav a:link,
 nav a:visited{
     text-decoration: none;
+    font-weight: lighter;
 }
 /*******
 Banner
@@ -63,13 +64,13 @@ Banner
 .contact_inf_short{
     position: absolute;
     top: 30px;
-    right: 300px;
+    right: 275px;
     display: flex;
     flex-direction: column;
 }
 
 .logo {
-    height: 100px;
+    height: 130px;
     width: auto;
 }
 .phone_det{
@@ -77,6 +78,7 @@ Banner
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 10px;
+    margin-right: 22px;
 }
 .phone_det div p{
     margin: 0;
