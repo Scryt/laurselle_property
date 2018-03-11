@@ -13,10 +13,11 @@ h1 {
 }
 .banner{
     border-bottom: 3px solid #9C6DAD;
-    height: 350px;
+    height: auto;
+    max-width: 100%
 }
 .container {
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,11 +26,6 @@ h1 {
 .logo {
     height: auto;
     max-width: 50%;
-}
-.logo_grey{
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 /*******
@@ -89,26 +85,43 @@ Footer
 .contact{
     display: flex;
     flex-direction: row;
+    height: 150px;
+    
+}
+.logo_grey{
+text-align: right;
+margin-top: 15px;
+}
+
+
+.footer_color{
+    background-color: #383838;
 }
 
 .contact div{
     width: 90%;
-    padding-top: 30px
+    padding-top: 10px;
 
 }
 .info {
     font-size: small;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    color: #aaa8a4;
+    justify-content: space-between;
 }
 .address {
     font-size: small;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
+    text-align: right;
+    color: #aaa8a4;
 
 }
+
 
 /**********************************************
 HOMEPAGE
@@ -156,8 +169,30 @@ SERVICE
 
 .service {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
+.icon {
+    width: 300px;
+    height: 300px;
+    margin-right: 150px;
+}
+.serv {
+    display: flex;
+    flex-direction: row;
+
+}
+.serv h2 {
+    text-align: left;
+    color: #8c6ba5;
+}
+.serv ul {
+    color: #828283;
+    text-indent: 30px;
+    line-height: 1.7;
+    list-style: none;
+
+}
+.serv li
 
 /**********************************************
 CONTACT
