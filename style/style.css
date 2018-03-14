@@ -11,12 +11,10 @@ Graphics made by Marcin Maciaszczuk
 /**********************************************
 GENERAL
 **********************************************/
-*{
-    font-family: 'Roboto Slab', serif;
-}
 
 body{
     background-color: #F4F4F4;
+    font-family: 'Roboto Slab', serif;
 }
 h1 {
     text-align: center;
@@ -238,10 +236,12 @@ CONTACT
     color: #9461A6;
     margin: 0;
 }
+
 .contact_data img{
     align-items: flex-start;
     float: left;
 }
+
 .contact_data div{
     max-width: 100%;
     display: flex;
@@ -250,33 +250,74 @@ CONTACT
     margin: 15px 25px;
     padding: 0;
 }
+
 .contact_data div div{
     align-items: flex-start;
     flex-direction: column;
 }
+
 #smaller{
     font-size: 0.7em;
 }
 
-.con_form,
-form{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    width: 500px;
-    margin: 5px;
-}
-.con_form p{
-    padding: 10px;
-    margin: 5px;
-}
+/*******
+Form
+*******/
 
 input[type=text],
 select,
 textarea {
     resize: vertical;
+}
 
+form{
+    flex-direction: row;
+    display: flex;
+    width: 70%;
+}
+input,
+select{
+    background-color: #F4F4F4;
+    height: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 100%;
+}
+label{
+    padding: 10px 0 0;
+}
+#first_column,
+#second_column{
+
+    width: 100%;
+    margin: 15px;
+}
+#first_column div{
+    display: flex;
+    flex-direction: column;
+}
+#second_column div{
+    display: flex;
+    flex-direction: column;
+}
+#second_column div:nth-child(3){
+    flex-direction: row;
+    margin: 10px;
+}
+#checkbox{
+    margin: 15px 0 0;
 }
 #other{
-    height: 150px;
+    background-color: #F4F4F4;
+    height: 100px;
+    max-width: 100%;
+}
+#submit{
+    justify-content: center;
+    align-content: center;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+    border-radius: 10%;
+    font-size: 1em;
 }
