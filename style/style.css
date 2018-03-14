@@ -21,6 +21,9 @@ body{
 h1 {
     text-align: center;
 }
+h3 {
+    color: #9461A6;
+}
 .container {
     max-width: 100%;
     display: flex;
@@ -231,6 +234,29 @@ SERVICE
 /**********************************************
 CONTACT
 **********************************************/
+.contact_data p{
+    color: #9461A6;
+    margin: 0;
+}
+.contact_data img{
+    align-items: flex-start;
+    float: left;
+}
+.contact_data div{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 15px 25px;
+    padding: 0;
+}
+.contact_data div div{
+    align-items: flex-start;
+    flex-direction: column;
+}
+#smaller{
+    font-size: 0.7em;
+}
 
 .con_form,
 form{
