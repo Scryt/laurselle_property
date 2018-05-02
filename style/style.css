@@ -177,8 +177,6 @@ HOMEPAGE
 .description{
     display: flex;
     flex-direction: row;
-    max-width: 70%;
-    justify-content: center;
     align-items: center;
 }
 
@@ -188,7 +186,7 @@ HOMEPAGE
 }
 
 .description div{
-    margin: 50px 45px;
+    /*margin: 50px 45px;*/
     text-align: center;
 }
 
