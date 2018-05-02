@@ -200,6 +200,9 @@ HOMEPAGE
     display: flex;
     flex-direction: row;
 }
+.feedback li{
+    max-width: 30%;
+}
 /**********************************************
 SERVICE
 **********************************************/
@@ -274,6 +277,7 @@ form{
     flex-direction: row;
     display: flex;
     width: 70%;
+    box-shadow: none;
 }
 input,
 select{
@@ -283,8 +287,13 @@ select{
     margin: 5px 0;
     max-width: 100%;
 }
+select{
+    height: 35px;
+    border-radius: 0;
+}
 label{
     padding: 10px 0 0;
+    color: #aaa8a4;
 }
 #first_column,
 #second_column{

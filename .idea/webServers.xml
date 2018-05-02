@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="03dc4305-2028-4b9d-b0e7-aa10c0a504eb" name="laurselleproperty" url="https://argon.cloudhosting.co.uk:2083/cpsess0733839022/frontend/paper_lantern/filemanager/index.html">
+        <fileTransfer host="ftp.laursellepropertylawyers.co.uk" port="22" rootFolder="/home/laursellepropert" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
