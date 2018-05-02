@@ -29,30 +29,52 @@ h3 {
     justify-content: center;
     margin: auto;
 }
+.separator{
+    height: 5vw;
+}
 
 /*******
 Navbar
 *******/
-
+.container .affix{
+    height: 5vw;
+}
 .navbar{
-    width: 60%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    height: 5vw;
 }
-
+.top_bar{
+    border-bottom: 3px solid #9361a6;
+    height: 5vw;
+}
+#logo_top {
+    height: 4vw;
+    width: auto;
+    justify-content: flex-start;
+    float: left;
+}
 .nav-item{
-    padding: 0 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 12%;
 }
 nav a:link,
 nav a:visited{
+    font-size: 1.5vw;
     text-decoration: none;
     font-weight: lighter;
 }
 /*******
-Banner
+Banner - switched off
 *******/
-
+/*
 .banner{
     max-width: 100%;
     position: relative;
@@ -73,10 +95,6 @@ Banner
     flex-direction: column;
 }
 
-.logo {
-    height: 90px;
-    width: auto;
-}
 .phone_det{
     display: flex;
     flex-direction: row;
@@ -95,20 +113,25 @@ Banner
     width: auto;
     height: 37px;
 }
-
+*/
 /*******
 Footer
 *******/
-
+#logo_bot{
+    height: 7vw;
+    width: auto;
+}
 .contact{
     display: flex;
     flex-direction: row;
-    height: 150px;
+    height: 10vw;
     
 }
 .logo_grey{
-text-align: right;
-margin-top: 15px;
+    vertical-align: middle;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
 }
 
 
@@ -118,29 +141,34 @@ margin-top: 15px;
 
 .contact div{
     width: 90%;
-    padding-top: 10px;
-
 }
 .info {
-    font-size: small;
+    font-size: 1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     color: #aaa8a4;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.info p,
+.address p{
+    margin: 0
 }
 .address {
-    font-size: small;
+    font-size: 1vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     text-align: right;
     color: #aaa8a4;
 
+
 }
 footer{
-    float: right; font-size: 9px;   !important;
+    float: right;
+    font-size: 0.7vw;
 }
 
 /**********************************************
@@ -171,27 +199,31 @@ HOMEPAGE
 }
 
 .testimonials{
-
     margin: 0;
     max-width: 100%;
     background-image: url("../images/testimonials_bg.png");
-    height: 300px;
+    max-height: 300px;
     flex-direction: column;
 }
 
 .testimonials h2{
+    font-size: 2vw;
     color: #9461A6;
     width: 20%;
     text-align: right;
 }
 
 .testimonials ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     list-style-type: none;
     max-width: 90%;
-    margin: auto;
+    margin: 1vw auto
 }
 .testimonials ul li {
-    padding: 0 35px;
+    font-size: 1.1vw;
+    width: 30%;
 }
 .testimonials ul li label{
     float: right;
@@ -210,21 +242,23 @@ SERVICE
 .service {
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
 }
 .icon {
-    width: 300px;
-    height: 300px;
-    margin-right: 150px;
+    width: 25vw;
+    height: 25vw;
+}
+.tes_list{
+    font-size: 1.1vw;
 }
 .serv {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
 }
 .serv h2 {
     text-align: left;
     color: #8c6ba5;
+    font-size: 2vw;
 }
 .serv ul {
     color: #828283;
@@ -240,8 +274,8 @@ CONTACT
     margin: 0;
 }
 
-.contact_data img{
-    align-items: flex-start;
+.contact_img{
+align-items: flex-start;
     float: left;
 }
 
