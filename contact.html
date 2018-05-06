@@ -69,56 +69,62 @@ Graphics made by Marcin Maciaszczuk
 
     </section>
 
-    <section class="container" style="flex-direction: column;">
+    <section class="container" >
         <form>
-            <div id="first_column">
+            <div id="form_input">
+                <div id="first_column">
+                    <div class="cont_form_column">
+                        <label for="name">Full names</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
 
-                <div class="cont_form_column">
-                    <label for="name">Full names</label>
-                    <input type="text" id="name" name="name" required>
+                    <div>
+                        <label for="phone">Telephone number:</label>
+                        <input type="number" id="phone" name="phone" pattern="[0-9]*" required>
+                    </div>
+
+                    <div>
+                        <label for="other">Other – please specify (i.e commercial lease.)</label>
+                        <textarea id="other" name="other"></textarea>
+                    </div>
                 </div>
 
-                <div>
-                    <label for="phone">Telephone number:</label>
-                    <input type="number" id="phone" name="phone" pattern="[0-9]*" required>
-                </div>
+                <div id="second_column">
 
-                <div>
-                    <label for="other">Other – please specify (i.e commercial lease.)</label>
-                    <textarea id="other" name="other"></textarea>
-                </div>
+                    <div class="cont_form_column">
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="mail" pattern=".*@.*\..*" required>
+                    </div>
 
+                    <div>
+                        <label for="state">Topic</label>
+                        <select id="state" name="state">
+                            <option value="sandb">Selling and buying</option>
+                            <option value="sell">Selling</option>
+                            <option value="buy">Buying</option>
+                        </select>
+                    </div>
+
+                    <div class="cont_form_row">
+                        <input id="checkbox" type="checkbox">
+                        <label for="checkbox">Mortgage involved</label>
+                    </div>
+                </div>
             </div>
-
-            <div id="second_column">
-
-                <div class="cont_form_column">
-                    <label for="mail">E-mail</label>
-                    <input type="email" id="mail" name="mail" pattern=".*@.*\..*" required>
-                </div>
-
-                <div>
-                    <label for="state">Topic</label>
-                    <select id="state" name="state">
-                        <option value="sandb">Selling and buying</option>
-                        <option value="sell">Selling</option>
-                        <option value="buy">Buying</option>
-                    </select>
-                </div>
-
-                <div class="cont_form_row">
-                    <input id="checkbox" type="checkbox">
-                    <label for="checkbox">Mortgage involved</label>
-                </div>
-
+            <div id="submit_button">
+                <input id="submit" type="submit">
             </div>
         </form>
-        <input id="submit" type="submit">
+
     </section>
+<section class="container">
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.3110835013367!2d1.1577658157902098!3d52.05585907972908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9a02af4646363%3A0x44772147f5b6ba16!2s37-39+Upper+Orwell+St%2C+Ipswich+IP4+1HP%2C+Wielka+Brytania!5e0!3m2!1spl!2spl!4v1525601666020" frameborder="0" allowfullscreen>
+    </iframe>
+</section>
     <section class="container, footer_color">
         <div class="contact">
             <div class="badge">
-                <div style="max-width:300px; max-height:108px;">
+                <div style="max-width: 20vw; max-height: 108px;">
                     <div style="position:relative; padding-bottom: 36.1%; height: auto; overflow: hidden;">
                         <iframe frameborder="0" scrolling="no" allowTransparency="true" src="https://cdn.yoshki.com/iframe/54885r.html" style="border: 0; margin: 0; padding: 0; background-color:transparent; top:0; left:0; width:100%; height:100%; position: absolute;">
                         </iframe>

@@ -267,6 +267,11 @@ SERVICE
 /**********************************************
 CONTACT
 **********************************************/
+#map{
+    width: 100%;
+    height: 250px;
+    border-top: 3px solid #9361a6;
+}
 .contact_data p{
     color: #9461A6;
     margin: 0;
@@ -306,8 +311,8 @@ textarea {
 }
 
 form{
-    flex-direction: row;
     display: flex;
+    flex-direction: column;
     width: 70%;
     box-shadow: none;
 }
@@ -324,8 +329,12 @@ select{
     border-radius: 0;
 }
 label{
-    padding: 10px 0 0;
+    padding: 10px 0 5px 10px;
     color: #aaa8a4;
+}
+#form_input{
+    display: flex;
+    flex-direction: row;
 }
 #first_column,
 #second_column{
@@ -347,6 +356,7 @@ label{
 }
 #checkbox{
     margin: 15px 0 0;
+    padding-right: 15px;
 }
 #other{
     background-color: #F4F4F4;
@@ -354,11 +364,13 @@ label{
     max-width: 100%;
 }
 #submit{
-    justify-content: center;
-    align-content: center;
     width: 100px;
     height: 30px;
     padding: 0;
     border-radius: 10%;
     font-size: 1em;
+    margin-bottom: 10px;
+}
+#submit_button{
+    align-self: center;
 }
